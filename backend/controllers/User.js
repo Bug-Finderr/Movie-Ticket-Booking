@@ -1,6 +1,6 @@
 import bcrypt from "bcryptjs";
 import User from "../models/User.js";
-import Bookings from "../models/Bookings.js";
+import Bookings from "../models/Booking.js";
 
 
 export const getAllUsers = async (req, res, next) => {
